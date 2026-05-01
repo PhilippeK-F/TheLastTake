@@ -1,0 +1,24 @@
+# Environnement
+.env
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data brute
+data/raw/*.csv
+data/raw/*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log

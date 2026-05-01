@@ -1,0 +1,11 @@
+services:
+
+  thelasttake:
+    build: .
+    container_name: thelasttake_app
+    ports:
+      - "8502:8501"
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
